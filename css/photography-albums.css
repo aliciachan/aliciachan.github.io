@@ -1,0 +1,56 @@
+/* Photography albums */
+.img-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+.img-overlay {
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  padding: 5px;
+  background: rgba(0,0,0,0.5);
+  opacity: 1;
+
+  color: white;
+  cursor: pointer;
+
+}
+
+.down-arrow {
+
+  position: fixed;
+  bottom: 5%;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 70px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: white;
+  z-index: 3;
+  display: none;
+  opacity: 0;
+
+  cursor: pointer;
+
+  -webkit-transition:      opacity 300ms;
+       -o-transition:      opacity 300ms;
+          transition:      opacity 300ms;
+
+}
+
+.fa-chevron-up { cursor: pointer; }
+
+/* Media queries */
+@media only screen and (min-width: 992px) {
+  .album-list { border-right: 1px solid black; }
+}
+@media only screen and (max-width: 992px) {
+  .album-list { border-bottom: 1px solid black; }
+  .album-detail { padding-top: 30px; }
+}

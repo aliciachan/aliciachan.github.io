@@ -1,0 +1,25 @@
+input, textarea { 
+  
+  font-size: 
+  font-weight: 700;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 0;
+  outline: none;
+  resize: none;
+  background: white;
+
+  transition: all 300ms;
+  -webkit-appearance: none;
+
+}
+input:not([type="submit"]), textarea {
+  margin-bottom: 30px;
+}
+input[type="submit"]:hover, 
+input[type="submit"]:focus, 
+input[type="submit"]:active {
+  background: black;
+  color: white;
+}
