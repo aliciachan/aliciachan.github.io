@@ -47,7 +47,7 @@ function listAlbum(album) {
 
   // Up arrow
   albumDetail.append(
-    "<div class=\"col-xs-12 hidden-md hidden-lg text-center\">" + 
+    "<div class=\"col-xs-12 text-center\">" + 
       "<i class=\"fa fa-chevron-up\"></i>" + 
     "</div>"
   );
